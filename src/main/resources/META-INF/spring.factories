@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.g7.framework.jpa.SpringDataJpaAutoConfiguration,\
+  com.g7.framework.jpa.transaction.TransactionAutoConfiguration,\
+  com.g7.framework.jpa.hikari.autoconfigure.HikariAutoConfiguration,\
+  com.g7.framework.jpa.hikari.autoconfigure.HikariDataSourceInitializerAutoConfiguration
